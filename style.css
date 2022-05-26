@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.griglia{
+    display: flex;
+    flex-wrap: wrap;  
+}
+img{
+    width: 100%;
+}
+main{
+    margin: 25px auto;
+    width: 70%;
+    margin-right: auto;
+}
+.image{
+    width: 32%;
+    margin-right: 10px;
+    position: relative;
+}
+.heart{
+    background-color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 4%;
+    right: 0%;
+    padding: 7px 20px; 
+}
+.sconto{
+    background-color: red;   
+}
+.categoria{
+    background-color: green;
+    
+}
+.testo-img{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+.posizionamento{
+    position: absolute;
+    bottom: 75px;
+}
+.red-text{
+    color: red;
+}
+.no-sconto{
+    text-decoration: line-through;
+}
+
+
